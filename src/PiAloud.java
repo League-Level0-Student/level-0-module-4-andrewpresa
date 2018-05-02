@@ -17,16 +17,17 @@ String Pie = "3.141592653589793238462643383279";
 
 	// 3. Print out some digits of Pi. The first value is "pi.charAt(0)", the second is "pi.charAt(1)"
 
-System.out.println("pi.charAt(0)");
-System.out.println("pi.charAt(1)");
-System.out.println("pi.charAt(2)");
-System.out.println("pi.charAt(3)");
-System.out.println("pi.charAt(4)");
-System.out.println("pi.charAt(5)");
+System.out.println(Pie.charAt(0));
+System.out.println(Pie.charAt(1));
+System.out.println(Pie.charAt(2));
+System.out.println(Pie.charAt(3));
+System.out.println(Pie.charAt(4));
+System.out.println(Pie.charAt(5));
 
 
 for(int i = 0; i < 32; i++){
-	System.out.println("pi.charAt(0++1)");
+	System.out.println(Pie.charAt(i));
+	speak(Pie.charAt(i));
 }
 }
 	// 4. Print ALL the digits of of Pi (hint: use a loop)
